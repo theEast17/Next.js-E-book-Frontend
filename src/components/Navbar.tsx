@@ -3,8 +3,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="border-b">
-            <div className="max-w-4xl mx-auto flex items-center justify-between py-4">
+        <header className="border-b">
+            <nav className="max-w-4xl mx-auto flex items-center justify-between py-4">
                 <div>
                     <Link href={'/'}>
                         <div className="flex items-center gap-1">
@@ -26,8 +26,8 @@ const Navbar = () => {
                         Sign up
                     </button>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
     );
 };
 
