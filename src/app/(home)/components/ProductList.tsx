@@ -3,7 +3,9 @@ import Bookcard from "./Bookcard";
 
 const ProductList = async() => {
   const response = await fetch(`${process.env.BACKEND_URL}/books`,{
-    cache:'no-store'
+    next:{
+      revalidate:3600
+    }
   })
   if(!response.ok){
     console.error(`Error: ${response.status} - ${response.statusText}`);
