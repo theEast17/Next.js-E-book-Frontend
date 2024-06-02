@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import PaperBg from "../../../public/paper-bg.jpg";
-import BookImg from "../../../public/book.png";
+import PaperBg from "../../../../public/paper-bg.jpg";
+import BookImg from "../../../../public/book.png";
 
 const Banner = () => {
   return (
-    <section className="max-w-4xl mx-auto relative mt-9">
+    <section className="max-w-5xl mx-auto relative mt-9">
       <div className="relative h-52 w-full">
         <Image
           src={PaperBg}

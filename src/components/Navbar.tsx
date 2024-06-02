@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <header className="border-b">
-            <nav className="max-w-4xl mx-auto flex items-center justify-between py-4">
+            <nav className="max-w-5xl mx-auto flex items-center justify-between py-4">
                 <div>
                     <Link href={'/'}>
                         <div className="flex items-center gap-1">
